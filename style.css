@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;700&display=swap');
+
+.root{
+    --primary-color: #FACC15;
+    --blue-color: #1D4ED8;
+}
+
+
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+
+.navigation{
+    background-color: #FACC15;
+    padding: 0rem 0rem;
+    text-align: center;
+    font-size: xx-large;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+textarea{
+    display: block;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;  
+    font-size: medium;     
+}
+#output{
+    border: 1px solid gray;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+} 
+
+#btn-translate {
+    background-color: #1D4ED8;
+    padding: 2rem 4rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    color: #FACC15;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.footer {
+    background-color: #FACC15;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.para{
+    padding-bottom: 1rem;
+}
