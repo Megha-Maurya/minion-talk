@@ -1,26 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 
 .root{
-    --primary-color: #FBBF24;
-    --blue-color: #1D4ED8;
+    --primary-color: #372C23;
+    --font-color: #C75E41;
 }
 
 body{
-    font-family: 'Arima Madurai', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0px;
+
 }
 
 .navigation{
-    background-color: #FBBF24;
+    background-color: #372C23;
     text-align: center;
     margin: 0rem 0rem;
-    padding: 0.08px;
+    padding: 0.5rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    font-size: x-large;
+    font-size: xx-large;
+    
+}
+
+.heading {
+    color: #C75E41;
 }
 
 .container{
-    margin: 0px 250px;
+    margin: 0px ;
+    margin-right: 100px;
+    margin-left: 350px;
 }
 
 textarea{
@@ -33,19 +43,25 @@ textarea{
 }
 
 #btn-translate{
-    background-color: #1D4ED8;
-    color: #FBBF24;
+    background-color: #372C23;
+    color: #C75E41;
     border-radius: 1rem;
     padding: 1rem;
-    margin-bottom: 0,5rem;
+    margin: 15px;
+    margin-bottom: 0.5rem;
     font-size: large;
     font-weight: bold;
     font-family: 'Arima Madurai', cursive;
 }
 
+#btn-title {
+    font-size: larger;
+    margin: 15px;
+}
+
 #output{
     border: 1px solid black;
-    border-color: #1D4ED8;
+    border-color: #C75E41;
     width: 60%;
     height: 10vh;
     padding: 1rem;
@@ -54,13 +70,16 @@ textarea{
 }
 
 .footer{
-    background-color: #FBBF24;
+    background-color: #372C23;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;margin: 0%;
-    padding: 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
     text-align: center;
+    color: #C75E41;
 }
 
 .para{
-    padding-bottom: 1rem;
+    
+    font-size: larger;
 }
